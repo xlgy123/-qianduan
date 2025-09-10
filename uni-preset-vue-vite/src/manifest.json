@@ -1,0 +1,145 @@
+{
+    "name" : "线上自习室",
+    "appid" : "__UNI__6D97037",
+    "description" : "专注高效的线上自习室，让学习更加专注和高效，随时随地享受高质量学习体验",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "modules" : {},
+        "distribute" : {
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ],
+                "abiFilters" : [ "armeabi-v7a", "arm64-v8a" ]
+            },
+            "ios" : {
+                "idfa" : false,
+                "dSYMs" : false
+            },
+            "sdkConfigs" : {
+                "ad" : {}
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "static/icon/icon-72x72.png",
+                    "xhdpi" : "static/icon/icon-96x96.png",
+                    "xxhdpi" : "static/icon/icon-144x144.png",
+                    "xxxhdpi" : "static/icon/icon-192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "static/icon/icon-1024x1024.png",
+                    "ipad" : {
+                        "app" : "static/icon/icon-76x76.png",
+                        "app@2x" : "static/icon/icon-152x152.png",
+                        "notification" : "static/icon/icon-20x20.png",
+                        "notification@2x" : "static/icon/icon-40x40.png",
+                        "proapp@2x" : "static/icon/icon-167x167.png",
+                        "settings" : "static/icon/icon-29x29.png",
+                        "settings@2x" : "static/icon/icon-58x58.png",
+                        "spotlight" : "static/icon/icon-40x40.png",
+                        "spotlight@2x" : "static/icon/icon-80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "static/icon/icon-120x120.png",
+                        "app@3x" : "static/icon/icon-180x180.png",
+                        "notification@2x" : "static/icon/icon-40x40.png",
+                        "notification@3x" : "static/icon/icon-60x60.png",
+                        "settings@2x" : "static/icon/icon-58x58.png",
+                        "settings@3x" : "static/icon/icon-87x87.png",
+                        "spotlight@2x" : "static/icon/icon-80x80.png",
+                        "spotlight@3x" : "static/icon/icon-120x120.png"
+                    }
+                }
+            },
+            "splashscreen" : {
+                "android" : {
+                    "hdpi" : "static/splash/splash-hdpi.png",
+                    "xhdpi" : "static/splash/splash-xhdpi.png",
+                    "xxhdpi" : "static/splash/splash-xxhdpi.png"
+                },
+                "ios" : {
+                    "iphone" : {
+                        "portrait-896h@3x" : "static/splash/splash-iphone-portrait-896h@3x.png",
+                        "portrait-896h@2x" : "static/splash/splash-iphone-portrait-896h@2x.png",
+                        "portrait-812h@3x" : "static/splash/splash-iphone-portrait-812h@3x.png",
+                        "portrait-812h@2x" : "static/splash/splash-iphone-portrait-812h@2x.png",
+                        "portrait-736h@3x" : "static/splash/splash-iphone-portrait-736h@3x.png",
+                        "portrait-568h@2x" : "static/splash/splash-iphone-portrait-568h@2x.png",
+                        "portrait-667h@2x" : "static/splash/splash-iphone-portrait-667h@2x.png",
+                        "portrait@2x" : "static/splash/splash-iphone-portrait@2x.png",
+                        "landscape-896h@3x" : "static/splash/splash-iphone-landscape-896h@3x.png",
+                        "landscape-896h@2x" : "static/splash/splash-iphone-landscape-896h@2x.png",
+                        "landscape-812h@3x" : "static/splash/splash-iphone-landscape-812h@3x.png",
+                        "landscape-812h@2x" : "static/splash/splash-iphone-landscape-812h@2x.png",
+                        "landscape-736h@3x" : "static/splash/splash-iphone-landscape-736h@3x.png",
+                        "landscape-667h@2x" : "static/splash/splash-iphone-landscape-667h@2x.png",
+                        "landscape-568h@2x" : "static/splash/splash-iphone-landscape-568h@2x.png",
+                        "landscape@2x" : "static/splash/splash-iphone-landscape@2x.png"
+                    },
+                    "ipad" : {
+                        "portrait" : "static/splash/splash-ipad-portrait.png",
+                        "portrait@2x" : "static/splash/splash-ipad-portrait@2x.png",
+                        "landscape" : "static/splash/splash-ipad-landscape.png",
+                        "landscape@2x" : "static/splash/splash-ipad-landscape@2x.png",
+                        "portrait-1194h@2x" : "static/splash/splash-ipad-portrait-1194h@2x.png",
+                        "landscape-1194h@2x" : "static/splash/splash-ipad-landscape-1194h@2x.png",
+                        "portrait-1112h@2x" : "static/splash/splash-ipad-portrait-1112h@2x.png",
+                        "landscape-1112h@2x" : "static/splash/splash-ipad-landscape-1112h@2x.png",
+                        "portrait-1004h@2x" : "static/splash/splash-ipad-portrait-1004h@2x.png",
+                        "landscape-1004h@2x" : "static/splash/splash-ipad-landscape-1004h@2x.png",
+                        "portrait-834h@2x" : "static/splash/splash-ipad-portrait-834h@2x.png",
+                        "landscape-834h@2x" : "static/splash/splash-ipad-landscape-834h@2x.png"
+                    }
+                }
+            }
+        }
+    },
+    "quickapp" : {},
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true
+        },
+        "usingComponents" : true,
+        "lazyCodeLoading" : "requiredComponents",
+        "permission" : {
+            "scope.userLocation" : {
+                "desc" : "获取位置以便于查找附近学习伙伴"
+            }
+        },
+        "plugins" : {},
+        "requiredBackgroundModes" : [ "audio" ]
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "3"
+}

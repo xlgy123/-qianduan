@@ -1,0 +1,250 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/examples/transition-demo",
+			"style": {
+				"navigationBarTitleText": "过渡动画组件示例"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/community",
+			"style": {
+				"navigationBarTitleText": "社区",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/community/create-post",
+			"style": {
+				"navigationBarTitleText": "发布内容",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/friends/friends",
+			"style": {
+				"navigationBarTitleText": "好友",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message/chat",
+			"style": {
+				"navigationBarTitleText": "聊天"
+			}
+		},
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "学习记录"
+			}
+		},
+		{
+			"path": "pages/profile/notes",
+			"style": {
+				"navigationBarTitleText": "学习笔记"
+			}
+		},
+		{
+			"path": "pages/profile/study-plan",
+			"style": {
+				"navigationBarTitleText": "学习计划"
+			}
+		},
+		{
+			"path": "pages/profile/study-statistics",
+			"style": {
+				"navigationBarTitleText": "学习统计"
+			}
+		},
+		{
+			"path": "pages/profile/study-medal",
+			"style": {
+				"navigationBarTitleText": "学习勋章"
+			}
+		},
+		{
+			"path": "pages/profile/to-do-list",
+			"style": {
+				"navigationBarTitleText": "待办清单"
+			}
+		},
+		{
+			"path": "pages/profile/tomato-clock",
+			"style": {
+				"navigationBarTitleText": "番茄钟"
+			}
+		},
+		{
+			"path": "pages/profile/ai-answer",
+			"style": {
+				"navigationBarTitleText": "ai问答"
+			}
+		},
+		{
+			"path": "pages/profile/message-notification",
+			"style": {
+				"navigationBarTitleText": "消息通知"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/profile/application-message",
+			"style": {
+				"navigationBarTitleText": "应用信息"
+			}
+		},
+		{
+			"path": "pages/profile/check-updates",
+			"style": {
+				"navigationBarTitleText": "检查更新"
+			}
+		},
+		{
+			"path": "pages/profile/help-feedback",
+			"style": {
+				"navigationBarTitleText": "帮助与反馈"
+			}
+		},
+		{
+			"path": "pages/profile/language",
+			"style": {
+				"navigationBarTitleText": "语言设置"
+			}
+		},
+		{
+			"path": "pages/profile/notification-sound",
+			"style": {
+				"navigationBarTitleText": "通知声音"
+			}
+		},
+		{
+			"path": "pages/profile/theme-pattern",
+			"style": {
+				"navigationBarTitleText": "主题模式"
+			}
+		},
+		{
+			"path": "pages/profile/edit-profile",
+			"style": {
+				"navigationBarTitleText": "编辑个人资料",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/room/room-detail",
+			"style": {
+				"navigationBarTitleText": "自习室详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/room/study-room",
+			"style": {
+				"navigationBarTitleText": "自习室学习",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/room/join-room",
+			"style": {
+				"navigationBarTitleText": "加入自习室",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/room/index",
+			"style": {
+				"navigationBarTitleText": "自习室",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"description": "通过改进右侧菜单的样式和结构，增加了滑动功能和菜单项的分层感，使其在不同屏幕尺寸下都能良好显示，并提高了整体美观度。",
+    "changes": [
+        {
+            "file": "style",
+            "type": "modify",
+            "description": "为右侧菜单(side-menu)添加了overflow-y: auto属性，使其在内容超出可视区域时可以滚动。"
+        },
+        {
+            "file": "style",
+            "type": "add",
+            "description": "增加了菜单项分组(menu-group)和分组标题(menu-group-title)，为菜单项添加了层次结构。"
+        },
+        {
+            "file": "style",
+            "type": "modify",
+            "description": "为菜单项(menu-item)添加了悬停效果和激活状态样式，提高了交互体验。"
+        },
+        {
+            "file": "style",
+            "type": "add",
+            "description": "添加了菜单分隔线(menu-divider)，使菜单项之间有更清晰的分隔。"
+        },
+        {
+            "file": "style",
+            "type": "modify",
+            "description": "调整了菜单项的内边距(padding)和边距(margin)，优化了整体布局。"
+        },
+        {
+            "file": "style",
+            "type": "add",
+            "description": "调整了菜单项的图标(menu-icon)和文本(menu-text)之间的间距，提高了可读性。"
+        }
+    ],
+    "recommendations": [
+        "可以考虑为菜单项的图标添加颜色变化效果，增强视觉反馈。",
+        "可以添加菜单项的点击波纹效果，提升交互体验。",
+        "可以考虑为菜单添加滚动条样式自定义，使其与整体风格一致。",
+        "可以在大屏幕上将菜单改为侧边栏样式，以提高空间利用率。"
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "线上自习室",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"titleNView": false,
+			"bounce": "none",
+			"pullToRefresh": {
+				"support": false
+			},
+			"softinputNavBar": "none",
+			"softinputMode": "adjustResize"
+		}
+	}
+}

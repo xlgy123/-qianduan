@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // 防止重复加载
+      if (window.hasLoaded) {
+        console.warn('页面已加载，阻止重复加载');
+        window.stop();
+      }
+      window.hasLoaded = true;
+      
+      var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+        CSS.supports('top: constant(a)'))
+      document.write(
+        '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+        (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+    </script>
+    <title>线上自习室</title>
+    <link rel="icon" href="/static/favicon.ico" />
+    <link rel="apple-touch-icon" href="/static/app-icon.png" />
+    <meta name="theme-color" content="#a6c0fe" />
+    <meta name="description" content="专注高效的线上自习室，让学习更加专注和高效，随时随地享受高质量学习体验" />
+    <!--preload-links-->
+    <!--app-context-->
+  </head>
+  <body>
+    <div id="app"><!--app-html--></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
